@@ -10,4 +10,7 @@ int main() {
     float x1, x2;
     solve(a, b, c, x1, x2);
 
-    std::cout << "Roots: x1 = " << x1 << ",
+    std::cout << "Roots: x1 = " << x1 << ", x2 = " << x2 << std::endl;
+
+    return 0;
+}
