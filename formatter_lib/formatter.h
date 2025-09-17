@@ -2,4 +2,4 @@
 
 #include <string>
 
-std::string formatter(const std::string& message);}
+std::string formatter(const std::string& message);
