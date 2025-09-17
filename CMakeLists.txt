@@ -23,3 +23,5 @@ if(CODE_COVERAGE AND CMAKE_CXX_COMPILER_ID MATCHES "GNU|Clang")
   target_compile_options(check PRIVATE --coverage)
   target_link_options(check PRIVATE --coverage)
 endif()
+
+include(CPackConfig.cmake)
