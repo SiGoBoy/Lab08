@@ -1,0 +1,1 @@
+/usr/bin/g++ CMakeFiles/lab03.dir/equation.cpp.o -o lab03  libsolver_lib.a libformatter_ex_lib.a libformatter_lib.a 

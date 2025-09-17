@@ -1,0 +1,3 @@
+/home/creatr/SiGoBoy/workspace/projects/lab03/lab03/solver_lib/_build/CMakeFiles/formatter.dir
+/home/creatr/SiGoBoy/workspace/projects/lab03/lab03/solver_lib/_build/CMakeFiles/edit_cache.dir
+/home/creatr/SiGoBoy/workspace/projects/lab03/lab03/solver_lib/_build/CMakeFiles/rebuild_cache.dir

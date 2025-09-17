@@ -1,0 +1,6 @@
+/home/creatr/SiGoBoy/workspace/projects/lab03/lab03/solver_application/_build/CMakeFiles/formatter_lib.dir
+/home/creatr/SiGoBoy/workspace/projects/lab03/lab03/solver_application/_build/CMakeFiles/formatter_ex_lib.dir
+/home/creatr/SiGoBoy/workspace/projects/lab03/lab03/solver_application/_build/CMakeFiles/solver_lib.dir
+/home/creatr/SiGoBoy/workspace/projects/lab03/lab03/solver_application/_build/CMakeFiles/lab03.dir
+/home/creatr/SiGoBoy/workspace/projects/lab03/lab03/solver_application/_build/CMakeFiles/edit_cache.dir
+/home/creatr/SiGoBoy/workspace/projects/lab03/lab03/solver_application/_build/CMakeFiles/rebuild_cache.dir

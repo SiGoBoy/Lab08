@@ -1,0 +1,1 @@
+/usr/bin/g++ CMakeFiles/lab03.dir/hello_world.cpp.o -o lab03  libformatter_ex_lib.a libformatter_lib.a 
