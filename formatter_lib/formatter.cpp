@@ -1,10 +1,10 @@
 #include "formatter.h"
+#include <sstream>
 
-std::string formatter(const std::string& message)
-{
-    std::string res;
-    res += "-------------------------\n";
-    res += message + "\n";
-    res += "-------------------------\n";
-    return res;
+namespace formatter {
+    std::string format(const std::string& text) {
+        std::ostringstream oss;
+        oss << "Formatted: " << text;
+        return oss.str();
+    }
 }
