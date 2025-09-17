@@ -34,6 +34,25 @@ set(CPACK_DEBIAN_PACKAGE_NAME "solverapp-dev")
 set(CPACK_DEBIAN_PACKAGE_PREDEPENDS "cmake >= 3.10")
 set(CPACK_DEBIAN_PACKAGE_RELEASE 1)
 ```
+CMakeLists.txt
+```cmake
+cmake_minimum_required(VERSION 3.10)
+
+project(solver)
+
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+add_subdirectory(formatter_lib)
+add_subdirectory(formatter_ex_lib)
+add_subdirectory(solver_lib)
+add_subdirectory(hello_world_application)
+add_subdirectory(solver_application)
+
+include(CPackConfig.cmake)
+include(CPack)
+```
+
 release.yml
 ```yml
 name: Release
@@ -143,3 +162,4 @@ jobs:
     env:
      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
+
