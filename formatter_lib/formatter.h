@@ -2,4 +2,6 @@
 
 #include <string>
 
-std::string formatter(const std::string& message);
+namespace formatter {
+    std::string format(const std::string& message);
+}
