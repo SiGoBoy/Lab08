@@ -1,12 +1,15 @@
 #include "solver.h"
+
+#include <stdexcept>
 #include <cmath>
 
-void solve(float a, float b, float c, float& x1, float& x2) {
-    float d = b * b - 4 * a * c;
+void solve(float a, float b, float c, float& x1, float& x2)
+{
+    float d = (b * b) - (4 * a * c);
 
-    if (d < 0) {
-        x1 = x2 = 0;
-        return;
+    if (d < 0)
+    {
+        throw std::logic_error{"error: discriminant < 0"};
     }
 
     x1 = (-b - std::sqrt(d)) / (2 * a);

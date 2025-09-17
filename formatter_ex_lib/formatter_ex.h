@@ -1,7 +1,6 @@
 #pragma once
 
 #include <string>
+#include <iostream>
 
-namespace formatter_ex {
-    std::string format_ex(const std::string& text);
-}
+std::ostream& formatter(std::ostream& out, const std::string& message);
