@@ -1,9 +1,5 @@
-cmake_minimum_required(VERSION 3.10)
-
-project(solver)
-
-set(CMAKE_CXX_STANDARD 11)
-set(CMAKE_CXX_STANDARD_REQUIRED ON)
+cmake_minimum_required(VERSION 3.10...3.28)
+project(lab06)
 
 add_subdirectory(formatter_lib)
 add_subdirectory(formatter_ex_lib)

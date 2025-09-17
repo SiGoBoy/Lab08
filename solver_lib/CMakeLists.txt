@@ -1,8 +1,5 @@
-cmake_minimum_required(VERSION 3.4)
-project (solver_lib)
+cmake_minimum_required(VERSION 3.10...3.28)
+project(solver_lib)
 
-set(CMAKE_CXX_STANDARD 11)
-set(CMAKE_CXX_STANDARD_REQUIRED ON)
-
-add_library(formatter STATIC ${CMAKE_CURRENT_SOURCE_DIR}/solver.h ${CMAKE_CURRENT_SOURCE_DIR}/solver.cpp)
-
+add_library(solver_lib STATIC solver.cpp solver.h)
+target_link_libraries(solver_lib formatter_lib)
