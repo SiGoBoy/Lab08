@@ -1,6 +1,5 @@
-cmake_minimum_required(VERSION 3.10...3.28
+cmake_minimum_required(VERSION 3.10...3.28)
 project(formatter_ex_lib)
-
 
 include_directories(${CMAKE_SOURCE_DIR}/formatter_lib)
 
