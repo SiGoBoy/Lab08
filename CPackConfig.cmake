@@ -1,6 +1,6 @@
 include(InstallRequiredSystemLibraries)
 
-set(CPACK_PACKAGE_CONTACT "andrey.tynkov@gmail.com")
+set(CPACK_PACKAGE_CONTACT "kuzmenkofilaret1@gmail.com")
 set(CPACK_PACKAGE_VERSION "1.0.1.0")
 set(CPACK_PACKAGE_DESCRIPTION_SUMMARY "C++ program for solving quadratic equations")
 
