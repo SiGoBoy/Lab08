@@ -1,0 +1,9 @@
+/home/creatr/SiGoBoy/workspace/projects/lab06/_build/CMakeFiles/package.dir
+/home/creatr/SiGoBoy/workspace/projects/lab06/_build/CMakeFiles/package_source.dir
+/home/creatr/SiGoBoy/workspace/projects/lab06/_build/CMakeFiles/edit_cache.dir
+/home/creatr/SiGoBoy/workspace/projects/lab06/_build/CMakeFiles/rebuild_cache.dir
+/home/creatr/SiGoBoy/workspace/projects/lab06/_build/banking/CMakeFiles/banking.dir
+/home/creatr/SiGoBoy/workspace/projects/lab06/_build/banking/CMakeFiles/package.dir
+/home/creatr/SiGoBoy/workspace/projects/lab06/_build/banking/CMakeFiles/package_source.dir
+/home/creatr/SiGoBoy/workspace/projects/lab06/_build/banking/CMakeFiles/edit_cache.dir
+/home/creatr/SiGoBoy/workspace/projects/lab06/_build/banking/CMakeFiles/rebuild_cache.dir
