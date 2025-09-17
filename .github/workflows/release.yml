@@ -34,8 +34,8 @@ jobs:
 
     - name: Archive source code
       run: |
-        git archive --format=zip --output=source.zip HEAD
-        git archive --format=tar.gz --output=source.tar.gz HEAD
+        git archive --format=zip --output=build/source.zip HEAD
+        git archive --format=tar.gz --output=build/source.tar.gz HEAD
 
     - name: Upload artifacts
       uses: actions/upload-artifact@v4
@@ -44,8 +44,8 @@ jobs:
         path: |
           build/*.deb
           build/*.rpm
-          source.zip
-          source.tar.gz
+          build/source.zip
+          build/source.tar.gz
 
   build-windows:
     runs-on: windows-latest
@@ -105,7 +105,9 @@ jobs:
         path: artifacts
 
     - name: List downloaded files
-      run: find artifacts -type f
+      run: |
+        echo "Downloaded files:"
+        find artifacts -type f -name "*.deb" -o -name "*.rpm" -o -name "*.msi" -o -name "*.dmg" -o -name "*.zip" -o -name "*.tar.gz"
 
     - name: Create Release
       uses: softprops/action-gh-release@v1
