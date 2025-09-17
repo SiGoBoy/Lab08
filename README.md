@@ -1,4 +1,4 @@
-## Laboratory work VI
+ ## Laboratory work VI
 
 ## Homework
 
