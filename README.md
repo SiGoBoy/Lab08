@@ -1,8 +1,8 @@
- ## Laboratory work VI
+ ## Laboratory work VIII
 Данная лабораторная работа посвящена изучению систем автоматизации, развёртывания и управления приложениями на примере Docker
 ## Homework
 
-##1)Cоздать конфигурацию Docker-контейнера в котором вы будете собирать проект. Эта конфигурация должна учитывать возможность передачи в этот контейнер вашего кода, сборки кода в контейнере и выгрузки оттуда файла с журнальной информацией.
+## 1)Cоздать конфигурацию Docker-контейнера в котором вы будете собирать проект. Эта конфигурация должна учитывать возможность передачи в этот контейнер вашего кода, сборки кода в контейнере и выгрузки оттуда файла с журнальной информацией.
 
 Dockerfile
 ```cmake
@@ -45,7 +45,7 @@ cat logs/log.txt
 
 [ 10%] Building CXX object formatter_lib/CMakeFiles/formatter.dir/formatter.cpp.o [ 20%] Linking CXX static library libformatter.a [ 20%] Built target formatter [ 30%] Building CXX object formatter_ex_lib/CMakeFiles/formatter_ex.dir/formatter_ex.cpp.o [ 40%] Linking CXX static library libformatter_ex.a [ 40%] Built target formatter_ex [ 50%] Building CXX object solver_lib/CMakeFiles/solver.dir/solver.cpp.o [ 60%] Linking CXX static library libsolver.a [ 60%] Built target solver [ 70%] Building CXX object hello_world_application/CMakeFiles/hello_world_application.dir/hello_world.cpp.o [ 80%] Linking CXX executable hello_world_application [ 80%] Built target hello_world_application [ 90%] Building CXX object solver_application/CMakeFiles/solver_application.dir/equation.cpp.o [100%] Linking CXX executable solver_application [100%] Built target solver_application
 ```
-#2) Создать конвейер обработки в .github/workflows, в котором будут запускаться задачи создания контейнера, выполнение в нем нужных команд по загрузке кода, сборки и получения файла с информацией, а также публикация этого файла в качестве артефакта в github actions.
+## 2) Создать конвейер обработки в .github/workflows, в котором будут запускаться задачи создания контейнера, выполнение в нем нужных команд по загрузке кода, сборки и получения файла с информацией, а также публикация этого файла в качестве артефакта в github actions.
 
 CI.yml
 ```yml
@@ -78,3 +78,4 @@ jobs:
      name: build-log
      path: logs/log.txt
 ```
+
